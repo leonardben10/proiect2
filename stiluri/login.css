@@ -1,0 +1,46 @@
+.formwrap{
+    display:block;
+    width:500px;
+    margin:0px auto;
+    font-size:1.6rem;
+}
+
+body{
+    background-color:black;
+}
+
+.backgroundform{
+    background-image: url("../images/2920111.jpeg");
+    height:800px;
+    display:Flex;
+    justify-content:center;
+    flex-direction:column;
+
+}
+form{
+    text-shadow: 0px 0px 10px black;
+    margin-top:40px;
+    color:white;
+}
+
+form input{
+    width:100%;
+    font-size:1.6rem;
+    margin-bottom:20px;
+    border-radius:9px;
+    padding:4px;
+}
+
+.mesajdeeroare{
+    padding:10px;
+    background-color:red;
+    font-size:2rem;
+    text-align:center;
+    margin-bottom:20px;
+    color:white;
+}
+
+.mesajdesucces{
+    background-color:green;
+}
+

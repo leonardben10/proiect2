@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url(https://fonts.google.com/share?selection.family=Faster%20One);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.hero{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav{
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index:3;
+}
+.navbar{
+  background-color: black;
+  border:1px solid black;
+}
+
+nav .logo{
+  width: 50px;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.content{
+  text-align: center;
+}
+.content h1{
+  font-size: 160px;
+  font-family: 'Rubik Wet Paint', cursive;
+
+  font-weight: 600;
+  transition: 0.5s;
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+}
+.content h1:hover{
+  color: transparent;
+  color: #fff;
+}
+
+.nav a, a:link, a:active, a:visited{
+  display: inline-block;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration:none;
+}
+
+.content a, a:active, a:visited{
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 24px;
+  border: 2px solid #fff;
+  padding: 14px 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.spaceforvideo{
+  display:block;
+  width:100%;
+  height:90px;
+}
+
+.back-video{
+  position:absolute;
+  margin-top:300px;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.mutebutton{
+  all:unset;
+  color:white;
+  font-family: 'Poppins',sans-serif;
+  z-index:3;
+}
+
+.navbar img{
+  width:100px;
+}
+
+.mesajdeeroare{
+  padding:10px;
+  background-color:red;
+  font-size:2rem;
+  text-align:center;
+  margin-bottom:20px;
+  color:white;
+}
+
+.mesajdesucces{
+  padding:10px;
+  background-color:green;
+  font-size:2rem;
+  text-align:center;
+  margin-bottom:20px;
+  color:white;
+}
+
+.wrapcategorii{
+  padding:20px 0;
+  background-color:black;
+  height:400px;
+  color:white;
+}
+
+.exemplecategorii{
+  max-width:1600px;
+  margin:0px auto;
+  height:40px;
+  display:flex;
+  flex-wrap:wrap;
+
+}
+
+.categorie{
+  background-size:cover;
+  flex-grow: 1;
+  flex-basis: 0;
+  display:flex;
+  justify-content: center;
+  height:300px;
+  min-width:33.33%;
+  color:white;
+}
+
+.textcategorie{
+  margin-top:20px;
+  display:inline-block;
+  color:white;
+  border:black;
+  padding: 0.5rem 0rem;
+  font-size:3rem;
+  background-color:rgba(255, 255, 255, 0.311);
+  border-radius:6px;
+  padding:0px 9px;
+  height:60px;
+  text-shadow: 2px 0px 30px black;
+  cursor:pointer;
+}
+
+.textcategorie:hover{
+
+  color:white;
+  border:black;
+  background-color:rgba(0, 0, 0, 0.273);
+  text-shadow: 2px rgb(255, 255, 255);
+  cursor:pointer;
+}
+
+
+@media (min-aspect-ratio: 16/9){
+.back-video{
+  width: 100%;
+  height: auto;
+}
+}
+@media (max-aspect-ratio: 16/9){
+  .back-video{
+    width: auto;
+    height: 100%;
+  }
+  }
+
+  .footer{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .telefon{
+    
+    background-color: #000;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 1;
+    font-size: 20px;
+  }
+
+  .formwrap{
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:center;
+  }
+
+  .formwrap button{
+    width:100px;
+    height:20px;
+    color:black;
+  }
